@@ -29,6 +29,7 @@ const constants = Object.freeze({
     customQueries: '',
     searchWithCustomQueries: false,
     searchWithDailyTrends: true,
+    searchWithDailyTrendsLocale : "US",
     searchWithTemplates: true,
     scheduleSearches: false,
     scheduledTime: '18:00',
@@ -44,7 +45,7 @@ const constants = Object.freeze({
     OPEN_URL_IN_BACKGROUND: 6, // window-variable-grabber script => content script => background script
   }),
   REWARDS_URL: 'https://rewards.bing.com/',
-  DAILY_TRENDS_API: 'https://trends.google.com/trends/api/dailytrends?geo=US',
+  DAILY_TRENDS_API: 'https://trends.google.com/trends/api/dailytrends?geo=',
   NUM_DAILY_TREND_FETCHES: 4,
   // TODO: add more mobile user agents
   MOBILE_USER_AGENTS: Object.freeze([
